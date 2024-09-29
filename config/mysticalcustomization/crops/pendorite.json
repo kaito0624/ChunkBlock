@@ -1,0 +1,13 @@
+{
+    "name": "pendorite",
+    "type": "resource",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+      "item": "byg:pendorite_ingot"
+    },
+    "color": "5940ED",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_dust",
+      "essence": "mysticalagriculture:item/essence_dust"
+    }
+  }

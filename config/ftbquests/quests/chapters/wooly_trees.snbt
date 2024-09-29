@@ -1,0 +1,43 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "wooly_trees"
+	group: "100F2B724C391D84"
+	icon: "woolytrees:jeb_sapling"
+	id: "418071538A4A59A1"
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1DE0FDB485C69D77"]
+			description: ["Rare chance to drop from sheep"]
+			icon: "woolytrees:wooly_sapling"
+			id: "2A2E186E4122B6C5"
+			tasks: [{
+				id: "0B76059B6FDD1E23"
+				item: "woolytrees:wooly_sapling"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1DE0FDB485C69D77"]
+			description: [
+				"Even rarer then the Normal wooly tree"
+				""
+				"Hint: will only drop from Jeb_ sheep or 0.001% chance from any colored sheep"
+			]
+			icon: "woolytrees:jeb_sapling"
+			id: "778F7CB39E69B540"
+			tasks: [{
+				id: "24AA644D736CAF62"
+				item: "woolytrees:jeb_sapling"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+	]
+	title: "Wooly Trees"
+}

@@ -1,0 +1,10 @@
+{
+    "name": "Neptune",
+    "colors": [
+      "08EED2",
+      "00FFE0"
+    ],
+    "ingredient": {
+      "tag": "forge:ingots/neptunium"
+    }
+  }

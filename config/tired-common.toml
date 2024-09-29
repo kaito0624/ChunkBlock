@@ -1,0 +1,7 @@
+
+#Sleep Schedule
+[Schedule]
+	#Defines the division of the day to sleep towards (4 = quarter, 2 = half, 1 = full day) [Default: 4]
+	#Range: > 1
+	sleepDivision = 4
+

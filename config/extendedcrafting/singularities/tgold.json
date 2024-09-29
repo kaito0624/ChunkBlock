@@ -1,0 +1,10 @@
+{
+    "name": "Tainted Gold",
+    "colors": [
+      "D38B28",
+      "D19645"
+    ],
+    "ingredient": {
+      "item": "naturesaura:tainted_gold"
+    }
+  }

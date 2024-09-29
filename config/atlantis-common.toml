@@ -1,0 +1,23 @@
+#Should Islands Generate?
+islandsOn = false
+#Should Volcanoes Generate?
+volcanoesOn = false
+#Minimum Crab Spawn Height
+#Range: 0 ~ 128
+minCrabSpawnHeight = 75
+#Maximum Crab Spawn Height
+#Range: 0 ~ 128
+maxCrabSpawnHeight = 85
+#Rate at which Magma Accelerates you
+#Range: 0.0 ~ 100.0
+magmaAcceleration = 0.1
+#Max Magma Velocity 
+#Range: 0.0 ~ 100.0
+magmaThreshold = 1.8
+#Start In Atlantis?
+startInAtlantis = false
+#Should Dimension Wide Water Breathing Be On?
+turnOnDimensionalWaterBreathing = true
+#Should Dimension Wide Haste Be On?
+turnOnDimensionalHaste = true
+

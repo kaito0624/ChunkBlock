@@ -1,0 +1,70 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "torch_master"
+	group: "100F2B724C391D84"
+	icon: "torchmaster:megatorch"
+	id: "40B02668B9A8FD18"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"55D49C3A12A20BEB"
+				"57BD1DBC116B3C06"
+			]
+			description: ["Prevent spawn in a 64x64 area without placing light to do so"]
+			id: "3EFC9B2FC3FC3CD0"
+			tasks: [{
+				id: "68D27B1C0CC82966"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"57BD1DBC116B3C06"
+				"3CCCA17AE1A25D67"
+			]
+			description: ["prevent spawn in a 3x3 chunk area by placing invisible light down"]
+			id: "5ECF8FE16B158595"
+			tasks: [{
+				id: "1061E7E0B5A52ACF"
+				item: "torchmaster:feral_flare_lantern"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3CCCA17AE1A25D67"
+				"68CD8BBFC0A8F202"
+			]
+			description: ["Prevent spawn of only passive mobs in a 16x16 area without it placing anything down"]
+			id: "633452B80812151D"
+			tasks: [{
+				id: "78776799E1CC6402"
+				item: "torchmaster:dreadlamp"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5ECF8FE16B158595"]
+			description: ["Clears all light from the lantern in case you no longer want them"]
+			id: "3694944BA598D9E9"
+			tasks: [{
+				id: "337E203B8C6475A4"
+				item: "torchmaster:frozen_pearl"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+	]
+	title: "Torch Master"
+}

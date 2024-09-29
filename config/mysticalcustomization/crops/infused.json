@@ -1,0 +1,13 @@
+{
+    "name": "infused",
+    "type": "resource",
+    "tier": "mysticalagriculture:3",
+    "ingredient": {
+      "item": "naturesaura:infused_iron"
+    },
+    "color": "4EEA2C",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_dust",
+      "essence": "mysticalagriculture:item/essence_dust"
+    }
+  }

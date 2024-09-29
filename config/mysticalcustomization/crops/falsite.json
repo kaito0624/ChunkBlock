@@ -1,0 +1,13 @@
+{
+    "name": "falsite",
+    "type": "resource",
+    "tier": "mysticalagriculture:3",
+    "ingredient": {
+      "item": "blue_skies:falsite_ingot"
+    },
+    "color": "5E24D7",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_dust",
+      "essence": "mysticalagriculture:item/essence_dust"
+    }
+  }

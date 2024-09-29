@@ -1,0 +1,10 @@
+{
+    "name": "Gaia",
+    "colors": [
+      "B2E6A5",
+      "B2E6A5"
+    ],
+    "ingredient": {
+      "item": "botania:gaia_ingot"
+    }
+  }

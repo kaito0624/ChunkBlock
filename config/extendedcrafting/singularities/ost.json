@@ -1,0 +1,10 @@
+{
+    "name": "Ostrum",
+    "colors": [
+      "D82D60",
+      "D82D60"
+    ],
+    "ingredient": {
+      "tag": "forge:ingots/ostrum"
+    }
+  }

@@ -1,0 +1,10 @@
+{
+    "name": "Ironwood",
+    "colors": [
+      "4A7554",
+      "6B7E6F"
+    ],
+    "ingredient": {
+      "tag": "forge:ingots/ironwood"
+    }
+  }

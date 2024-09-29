@@ -1,0 +1,13 @@
+{
+    "name": "neptune",
+    "type": "resource",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+      "item": "aquaculture:neptunium_ingot"
+    },
+    "color": "24D7C5",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_dust",
+      "essence": "mysticalagriculture:item/essence_dust"
+    }
+  }

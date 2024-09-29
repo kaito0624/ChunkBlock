@@ -1,0 +1,10 @@
+{
+    "name": "Falsite",
+    "colors": [
+      "6D28EF",
+      "D528EF"
+    ],
+    "ingredient": {
+      "tag": "blue_skies:ingots/falsite"
+    }
+  }

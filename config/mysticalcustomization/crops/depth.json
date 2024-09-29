@@ -1,0 +1,13 @@
+{
+    "name": "depth",
+    "type": "resource",
+    "tier": "mysticalagriculture:4",
+    "ingredient": {
+      "item": "naturesaura:depth_ingot"
+    },
+    "color": "24C5D7",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_dust",
+      "essence": "mysticalagriculture:item/essence_dust"
+    }
+  }

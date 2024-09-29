@@ -1,0 +1,10 @@
+{
+    "name": "Imperium",
+    "colors": [
+      "1482F0",
+      "147BF0"
+    ],
+    "ingredient": {
+      "tag": "forge:ingots/imperium"
+    }
+  }

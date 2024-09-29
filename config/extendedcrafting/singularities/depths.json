@@ -1,0 +1,10 @@
+{
+    "name": "Depth",
+    "colors": [
+      "5E45D1",
+      "6945D1"
+    ],
+    "ingredient": {
+      "item": "naturesaura:depth_ingot"
+    }
+  }

@@ -1,0 +1,10 @@
+{
+    "name": "Osmium",
+    "colors": [
+      "F1F1CB",
+      "F9F9F2"
+    ],
+    "ingredient": {
+      "tag": "forge:ingots/osmium"
+    }
+  }

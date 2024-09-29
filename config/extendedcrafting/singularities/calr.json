@@ -1,0 +1,10 @@
+{
+    "name": "Calorite",
+    "colors": [
+      "D82D30",
+      "D82D30"
+    ],
+    "ingredient": {
+      "tag": "forge:ingots/calorite"
+    }
+  }

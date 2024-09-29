@@ -1,0 +1,23 @@
+[16:49:37.026][INFO]: Successfully injected RecipeFS file system
+[16:49:37.213][INFO]: Successfully identified and loaded plugin crafttweaker:builtin
+[16:49:37.223][INFO]: Successfully identified and loaded plugin crafttweaker:builtin_forge
+[16:49:37.228][INFO]: Successfully identified and loaded plugin mekanism:crt_plugin
+[16:49:42.274][INFO]: The following mods have explicit CraftTweaker support through the default plugin:
+[16:49:42.280][INFO]: - 'crafttweaker' at version '10.1.46'
+[16:49:42.281][INFO]: - 'extendedcrafting' at version '5.1.7'
+[16:49:42.281][INFO]: - 'mekanism' at version '10.3.8'
+[16:49:42.281][INFO]: - 'mysticalagriculture' at version '6.0.11'
+[16:49:42.281][INFO]: - 'rootsclassic' at version '1.19.2-1.1.35'
+[16:50:10.263][INFO]: Started loading scripts for loader 'mekanismcontent'
+[16:50:10.729][INFO]: Compiling and executing scripts
+[16:50:11.759][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[16:50:11.954][INFO]: Execution for loader 'mekanismcontent' completed successfully
+[16:50:11.954][INFO]: Registering 0 custom gases.
+[16:50:11.965][INFO]: Registering 0 custom infuse types.
+[16:50:11.979][INFO]: Registering 0 custom pigments.
+[16:50:11.986][INFO]: Registering 0 custom robit skins.
+[16:50:11.992][INFO]: Registering 0 custom slurries.
+[16:50:22.286][INFO]: Started loading scripts for loader 'initialize'
+[16:50:22.407][INFO]: Compiling and executing scripts
+[16:50:22.412][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[16:50:22.461][INFO]: Execution for loader 'initialize' completed successfully

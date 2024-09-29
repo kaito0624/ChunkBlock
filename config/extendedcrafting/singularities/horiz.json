@@ -1,0 +1,10 @@
+{
+    "name": "Horizonite",
+    "colors": [
+      "EF9728",
+      "EFA228"
+    ],
+    "ingredient": {
+      "tag": "blue_skies:ingots/horizonite"
+    }
+  }

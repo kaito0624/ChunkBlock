@@ -1,0 +1,10 @@
+{
+    "name": "Prudentium",
+    "colors": [
+      "69E41E",
+      "62F509"
+    ],
+    "ingredient": {
+      "tag": "forge:ingots/prudentium"
+    }
+  }

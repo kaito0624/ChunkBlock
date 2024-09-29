@@ -1,0 +1,10 @@
+{
+    "name": "Inferium",
+    "colors": [
+      "F1F109",
+      "E4E41E"
+    ],
+    "ingredient": {
+      "tag": "forge:ingots/inferium"
+    }
+  }

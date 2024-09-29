@@ -1,0 +1,10 @@
+{
+    "name": "Awakened Supremium",
+    "colors": [
+      "F02114",
+      "E43220"
+    ],
+    "ingredient": {
+      "tag": "forge:ingots/awakened_supremium"
+    }
+  }

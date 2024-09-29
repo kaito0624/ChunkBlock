@@ -1,0 +1,10 @@
+{
+    "name": "Insanium",
+    "colors": [
+      "8220E4",
+      "742BBC"
+    ],
+    "ingredient": {
+      "tag": "forge:ingots/insanium"
+    }
+  }

@@ -1,0 +1,13 @@
+{
+    "name": "tainted",
+    "type": "resource",
+    "tier": "mysticalagriculture:3",
+    "ingredient": {
+      "item": "naturesaura:tainted_gold"
+    },
+    "color": "ECFCF6",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_dust",
+      "essence": "mysticalagriculture:item/essence_dust"
+    }
+  }

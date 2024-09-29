@@ -1,0 +1,10 @@
+{
+    "name": "Pendorite",
+    "colors": [
+      "5114E4",
+      "8E14E4"
+    ],
+    "ingredient": {
+      "item": "byg:pendorite_ingot"
+    }
+  }

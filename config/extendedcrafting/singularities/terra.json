@@ -1,0 +1,10 @@
+{
+    "name": "Terrasteel",
+    "colors": [
+      "34F20B",
+      "34F20B"
+    ],
+    "ingredient": {
+      "tag": "forge:ingots/terrasteel"
+    }
+  }

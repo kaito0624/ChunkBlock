@@ -1,0 +1,10 @@
+{
+    "name": "Prosperity",
+    "colors": [
+      "FFFFFF",
+      "FFFFFF"
+    ],
+    "ingredient": {
+      "tag": "forge:ingots/prosperity"
+    }
+  }

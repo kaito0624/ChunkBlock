@@ -1,0 +1,283 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_start"
+	group: "100F2B724C391D84"
+	icon: "chunkbychunk:unstablechunkspawner"
+	id: "5AEF68D201A83F7E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome to the pack!"
+				""
+				"This pack is non-expert and as such can be mostly played without any worry of mods blocking others"
+				""
+				"only exeption to this is the starting mod and the one to thank for why your only on one chunk!"
+				""
+				"but anyway enough talk let get you set up with the basics!"
+				""
+				"P.S. this quest book only here if you really really need it if not please just ignore it and do as you please!"
+			]
+			id: "6B354F44967ECE0C"
+			tasks: [{
+				id: "1931115842A5936A"
+				title: "Welcome to my simple pack"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6B354F44967ECE0C"
+				"3F1205BC086D4E3C"
+			]
+			description: ["Your first job is to get your first world core this chunk should have one in a chest near bedrock so look there"]
+			id: "48B4CC7E0AE5256C"
+			tasks: [{
+				id: "2FA4900ABAD24737"
+				item: "chunkbychunk:worldcore"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4DA3BC5EFB6A3C4C"
+				"71010DD83209448B"
+				"1E7872C8C0DC3B53"
+			]
+			description: [
+				"first things first you need more room!"
+				""
+				"To do this there are to chunk spawners currently though you can only make the first one"
+				""
+				"This one will spawn in a random chunk meaning it should be any of of the chunk in a 20x20 were you place it"
+				""
+				"This will not place the chunk randomly! if you place it on the north side of the current chunk it will land there and just be a random chunk pulled from that 20x20"
+			]
+			id: "00446DE4A1317723"
+			tasks: [{
+				id: "084E9D87AEF7A1C8"
+				item: "chunkbychunk:unstablechunkspawner"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"48B4CC7E0AE5256C"
+				"11E96C97CDA7AD95"
+			]
+			description: ["Required to make world cores after finding the first one!"]
+			id: "1E7872C8C0DC3B53"
+			tasks: [{
+				id: "603D7565B0CCF0CB"
+				item: "chunkbychunk:worldforge"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1E7872C8C0DC3B53"]
+			description: ["Does the same as the unstable version but will give you the chunk that meant to be there"]
+			id: "466EF80FE116E1BA"
+			tasks: [{
+				id: "54ABF01AD36A11FB"
+				item: "chunkbychunk:chunkspawner"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E7872C8C0DC3B53"]
+			description: ["This optional block will scan for any other block if given at lest one of said block and world shards"]
+			id: "11E40019F825B457"
+			optional: true
+			shape: "octagon"
+			tasks: [{
+				id: "3CB0265898E64527"
+				item: "chunkbychunk:worldscanner"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7F1BFEB89AC10504"]
+			hide_dependency_lines: true
+			id: "69F4CA511DFFCC39"
+			tasks: [{
+				id: "5D3CFBD3CC4C0DB5"
+				item: "chunkbychunk:plainschunkspawner"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7F1BFEB89AC10504"]
+			hide_dependency_lines: true
+			id: "0D516F5A51199D7A"
+			tasks: [{
+				id: "26EB092462B60670"
+				item: "chunkbychunk:snowchunkspawner"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7F1BFEB89AC10504"]
+			hide_dependency_lines: true
+			id: "26822019A9B07F97"
+			tasks: [{
+				id: "68A92A5A37833B71"
+				item: "chunkbychunk:desertchunkspawner"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7F1BFEB89AC10504"]
+			hide_dependency_lines: true
+			id: "38CAAC3A98F3DB2E"
+			tasks: [{
+				id: "1CED0DAFA107CC98"
+				item: "chunkbychunk:swampchunkspawner"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7F1BFEB89AC10504"]
+			hide_dependency_lines: true
+			id: "5D5BF04C71296234"
+			tasks: [{
+				id: "5508D8C398734EF7"
+				item: "chunkbychunk:badlandschunkspawner"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7F1BFEB89AC10504"]
+			hide_dependency_lines: true
+			id: "47CB14CBA0EB8706"
+			tasks: [{
+				id: "4C6D20C6118A58B2"
+				item: "chunkbychunk:forestchunkspawner"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7F1BFEB89AC10504"]
+			hide_dependency_lines: true
+			id: "3911D4EE34B17D6A"
+			tasks: [{
+				id: "04601DAE1FE48309"
+				item: "chunkbychunk:savannachunkspawner"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7F1BFEB89AC10504"]
+			hide_dependency_lines: true
+			id: "52BD5CA93A9B92B2"
+			tasks: [{
+				id: "55A97C4BDA3734F6"
+				item: "chunkbychunk:rockychunkspawner"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7F1BFEB89AC10504"]
+			hide_dependency_lines: true
+			id: "6032F35D9CC50FB9"
+			tasks: [{
+				id: "16283553AB9E80D9"
+				item: "chunkbychunk:junglechunkspawner"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7F1BFEB89AC10504"]
+			hide_dependency_lines: true
+			id: "6F1E007D05B187D2"
+			tasks: [{
+				id: "6DE62B106F75A64E"
+				item: "chunkbychunk:mushroomchunkspawner"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1E7872C8C0DC3B53"]
+			id: "7F1BFEB89AC10504"
+			tasks: [{
+				id: "77D0C5D4057A2C25"
+				title: "Biomes"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B354F44967ECE0C"]
+			description: [
+				"1) One of the mods in this pack lets you pass days and night with a bed!"
+				""
+				"2) A Diffrent mod will pass time sleeping relisticly and not instantly meaning you will see the sun/moon move though the sky as time does pass and also mean things that require the pass of time will grow/ still progress while your sleeping!"
+				""
+				"3) Currently going into a dimension without a bed will pop you out at world spawn (unless its the nether) to prevent this use a bed to set at new spawn for yourself"
+				""
+				"4) I Cover a lot about mods in this questbook but do skip some thing so look though mods and check out items i didn't add here!"
+				""
+				"5) Twerking and Veinminer are both in pack without requirement try to use them to your advantage!"
+				""
+				"Now that you read though this id take a few second set up any keys you need for mods and get to grinding!"
+			]
+			id: "0DB366360575C9A9"
+			optional: true
+			shape: "octagon"
+			tasks: [{
+				id: "0AEA8B8498FCC4E3"
+				title: "Few Notes!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1E7872C8C0DC3B53"]
+			description: ["Automatic chunk making as long as you have cores or spawners"]
+			id: "4DF65D49DF1F19F4"
+			tasks: [{
+				id: "423CA55DF9797652"
+				item: "chunkbychunk:worldmender"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+	]
+	title: "The Start"
+}

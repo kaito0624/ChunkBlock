@@ -1,0 +1,10 @@
+{
+    "name": "Tertium",
+    "colors": [
+      "F09D14",
+      "F07F14"
+    ],
+    "ingredient": {
+      "tag": "forge:ingots/tertium"
+    }
+  }

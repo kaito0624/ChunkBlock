@@ -1,0 +1,107 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = false
+  backgroundimage = config/fancymenu/assets/bhbg.png
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+  backgroundcolor = 
+}
+
+customization {
+  visible = false
+  action = editlogo
+}
+
+customization {
+  orientation = mid-centered
+  x = -9
+  action = editprogressbar
+  y = -77
+}
+
+customization {
+  path = config/fancymenu/assets/bhasset.png
+  orientation = mid-centered
+  x = -3
+  width = 218
+  action = addtexture
+  actionid = 280bd099-76da-4b6a-9bcf-58f2af4638b91666914970944
+  y = 662
+  height = 488
+}
+
+customization {
+  path = config/fancymenu/assets/bhasset.png
+  orientation = mid-centered
+  x = -4
+  width = 220
+  action = addtexture
+  actionid = 4ec0a0eb-9427-4ad7-a126-ab1c84adca471666914863578
+  y = 485
+  height = 488
+}
+
+customization {
+  orientation = top-left
+  audio_source:80fe1f93-0a3d-41ea-a2a5-a171935a90451659459071302 = Songs/Medieval-Music-Troubadour.ogg;EXTERNAL_LOCAL;50;0
+  channel = music
+  audio_source:dda1019b-9e0f-4c6b-8066-e5c8f85d45261659459065488 = Songs/Medieval-Music-Sakpipslät-.ogg;EXTERNAL_LOCAL;50;0
+  audio_source:6d9360e7-7ff1-4047-88e0-50343f844d571659459060668 = Songs/Medieval-Music-Medieval-England.ogg;EXTERNAL_LOCAL;50;0
+  loop = true
+  audio_source:64d88de5-c040-4a51-8155-2b371ef40d341659459049994 = Songs/Faolan-Auld-Tavern-Song-_Medieval-Tavern-Music_.ogg;EXTERNAL_LOCAL;50;0
+  x = 1230
+  width = 99
+  action = custom_layout_element:fancymenu_extension:audio_item
+  actionid = c6544a89-ebd1-464a-9bea-a7c377d6c4ec1659459045285
+  y = 682
+  once_per_session = false
+  height = 96
+}
+
+customization {
+  path = config/fancymenu/assets/bhasset.png
+  orientation = mid-centered
+  x = -5
+  width = 221
+  action = addtexture
+  actionid = a7995865-4387-4fc9-aa2f-3553028c5a5f1666913167345
+  y = 181
+  height = 470
+}
+
+customization {
+  path = config/fancymenu/assets/bhasset.png
+  orientation = mid-centered
+  x = -222
+  width = 221
+  action = addtexture
+  actionid = f2404e11-4bf3-4780-8342-6f683d0b44281666915090827
+  y = 609
+  height = 488
+}
+
+customization {
+  path = config/fancymenu/assets/bhasset.png
+  orientation = mid-centered
+  x = 217
+  width = 221
+  action = addtexture
+  actionid = 218c9f41-0270-4cfd-8345-7bab8cb70d4f1666915108668
+  y = 608
+  height = 488
+}
+
+customization {
+  path = config/fancymenu/assets/bhasset.png
+  orientation = mid-centered
+  x = -224
+  width = 221
+  action = addtexture
+  actionid = 20e73a8e-384c-4a8d-b830-7304de7569941666915166965
+  y = 421
+  height = 488
+}
+

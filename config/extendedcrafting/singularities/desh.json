@@ -1,0 +1,10 @@
+{
+    "name": "Desh",
+    "colors": [
+      "D89C2D",
+      "D89C2D"
+    ],
+    "ingredient": {
+      "tag": "forge:ingots/desh"
+    }
+  }

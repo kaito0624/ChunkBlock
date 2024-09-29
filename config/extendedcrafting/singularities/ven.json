@@ -1,0 +1,10 @@
+{
+    "name": "Ventium",
+    "colors": [
+      "EF2828",
+      "EF2828"
+    ],
+    "ingredient": {
+      "tag": "blue_skies:ingots/ventium"
+    }
+  }
